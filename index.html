@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b50">
+  <meta name="description" content="Site institucional do Colégio Estadual Coronel Virgílio do Vale, em Ceres-GO.">
+  <title>Colégio Estadual Coronel Virgílio do Vale | 5ª Feira Tecnológica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Página inicial">
+      <span class="brand-symbol" aria-hidden="true">✦</span>
+      <span class="brand-name"><strong>COLÉGIO ESTADUAL</strong><small>CORONEL VIRGÍLIO DO VALE</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#escola">A escola</a>
+      <a href="#ensino">Ensino</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#feira">Feira escolar</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-photo" role="img" aria-label="Fachada original do Colégio Estadual Coronel Virgílio do Vale"></div>
+      <div class="hero-caption">
+        <span class="eyebrow">CERES · GOIÁS</span>
+        <h1>Colégio Estadual<br>Coronel Virgílio do Vale</h1>
+        <p>Informações institucionais, atividades e projetos da comunidade escolar.</p>
+        <a class="button button-light" href="#escola">Conheça a escola <span>↗</span></a>
+      </div>
+      <a class="scroll-cue" href="#escola" aria-label="Rolar para conhecer a escola">↓</a>
+    </section>
+
+    <section class="section intro" id="escola">
+      <div class="section-heading">
+        <span class="eyebrow blue">A INSTITUIÇÃO</span>
+        <h2>Colégio Estadual<br>Coronel Virgílio do Vale</h2>
+      </div>
+      <div class="intro-copy">
+        <p>Localizado em Ceres–GO, o Colégio Estadual Coronel Virgílio do Vale atende estudantes do Ensino Médio e oferece formação técnica integrada nas áreas de Informática e Administração.</p>
+      </div>
+    </section>
+
+    <section class="section soft-section" id="ensino">
+      <div class="section-top">
+        <div>
+          <span class="eyebrow blue">VIDA ESCOLAR</span>
+          <h2>Ensino e comunidade</h2>
+        </div>
+      </div>
+      <div class="info-grid">
+        <article class="info-card"><h3>Ensino Médio</h3><p>Formação geral integrada à preparação para a continuidade dos estudos e para o mundo do trabalho.</p></article>
+        <article class="info-card"><h3>Cursos técnicos</h3><p>Formação técnica integrada ao Ensino Médio nas áreas de Informática e Administração.</p></article>
+        <article class="info-card" id="projetos"><h3>Projetos e atividades</h3><p>Iniciativas, trabalhos e experiências desenvolvidos pelos estudantes durante o ano letivo.</p></article>
+      </div>
+    </section>
+
+    <section class="section fair-section" id="feira">
+      <div class="fair-copy">
+        <span class="eyebrow">EVENTO ESCOLAR</span>
+        <h2>5ª Feira Tecnológica</h2>
+        <p>A feira reúne trabalhos e projetos desenvolvidos pelos estudantes ao longo do ano.</p>
+        <div class="fair-details">
+          <div><small>DATA</small><strong>26/11/2026</strong></div>
+          <div><small>HORÁRIO</small><strong>A partir das 8h</strong></div>
+          <div><small>LOCAL</small><strong>Quadra da escola</strong></div>
+          <div><small>TRABALHOS</small><strong>Cerca de 20</strong></div>
+        </div>
+      </div>
+      <div class="mascot-wrap">
+        <img src="assets/mascote-escola.png" alt="Mascote oficial do Colégio Estadual Coronel Virgílio do Vale">
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div>
+        <span class="eyebrow blue">FALE CONOSCO</span>
+        <h2>Contato</h2>
+        <p class="contact-intro">Canais de contato da escola.</p>
+      </div>
+      <div class="contact-list">
+        <a class="contact-item" href="https://www.instagram.com/virgiliodovale.ceres/" target="_blank" rel="noopener">
+          <span class="contact-symbol">◎</span><span><small>INSTAGRAM</small><strong>@virgiliodovale.ceres</strong></span><span class="arrow">↗</span>
+        </a>
+        <a class="contact-item" href="tel:+556233079278">
+          <span class="contact-symbol">⌕</span><span><small>TELEFONE</small><strong>(62) 3307-9278</strong></span><span class="arrow">↗</span>
+        </a>
+        <a class="contact-item" href="mailto:52015459@seduc.go.gov.br">
+          <span class="contact-symbol">✉</span><span><small>E-MAIL</small><strong>52015459@seduc.go.gov.br</strong></span><span class="arrow">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand brand-footer" href="#inicio"><span class="brand-symbol" aria-hidden="true">✦</span><span class="brand-name"><strong>COLÉGIO ESTADUAL</strong><small>CORONEL VIRGÍLIO DO VALE</small></span></a>
+    <span>Ceres – Goiás</span>
+    <span class="footer-credit">✦ <span id="year"></span> · Colégio Estadual Coronel Virgílio do Vale</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
